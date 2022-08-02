@@ -1,0 +1,20 @@
+#!/bin/bash
+
+### Basic_IF_Condition
+
+read -p "Enter a Number: " NUM
+echo
+
+if [ $NUM -gt 100 ]
+then
+   echo "We have Entered in IF_ELSE Block"
+   sleep 3
+   echo "Your number is greater than 100"
+   echo
+   date
+else
+   echo "You have Entered a number less than 100"
+fi
+
+
+echo "Script Executed Successfully"
